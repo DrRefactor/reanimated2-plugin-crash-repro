@@ -4,11 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "babel --config-file=./babel.config.js ./node_modules/react-native-reanimated/src/reanimated2/hook/useAnimatedRef.ts --out-file useAnimatedRef.compiled.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@babel/cli": "^7.16.0"
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.5",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.16.5",
+    "@babel/plugin-proposal-optional-chaining": "^7.16.5",
+    "@babel/plugin-transform-arrow-functions": "^7.16.5",
+    "@babel/plugin-transform-shorthand-properties": "^7.16.5",
+    "@babel/plugin-transform-template-literals": "^7.16.5",
+    "@babel/preset-typescript": "^7.16.5"
+  },
+  "dependencies": {
+    "react-native-reanimated": "drrefactor/react-native-reanimated#babel-plugin-crash-uninitialized-const"
   }
 }
