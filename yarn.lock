@@ -686,7 +686,7 @@ react-freeze@^1.0.0:
 
 react-native-reanimated@drrefactor/react-native-reanimated#babel-plugin-crash-uninitialized-const:
   version "2.3.0"
-  resolved "https://codeload.github.com/drrefactor/react-native-reanimated/tar.gz/d0faff2f9dd3f09720e4e4735e81c5b88d533007"
+  resolved "https://codeload.github.com/drrefactor/react-native-reanimated/tar.gz/9212505ef426ea8a8c1ed73fe891530ac6381f8d"
   dependencies:
     "@babel/plugin-transform-object-assign" "^7.10.4"
     "@types/invariant" "^2.2.35"

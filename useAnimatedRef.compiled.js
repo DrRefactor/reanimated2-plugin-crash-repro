@@ -6,7 +6,7 @@ export function useAnimatedRef() {
   const ref = useRef();
 
   if (!ref.current) {
-    const fun = function () {
+    var fun = function () {
       const _f = function (component) {
         // enters when ref is set by attaching to a component
         if (component) {
